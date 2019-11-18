@@ -1,0 +1,31 @@
+{extend name="common/common" /}
+{block name="main"}
+<form class="am-form" method="post" >
+    <fieldset>
+        <legend>密码修改</legend>
+        <div class="am-form-group">
+            <label for="schoolnum">学号</label>
+            <input type="text" class="" id="schoolnum"  name="schoolnum" required minlength="9" maxlength="11" placeholder="请输入学号">
+        </div>
+
+        <div class="am-form-group">
+            <label for="password">原密码</label>
+            <input type="password" class="" id="password" name="passwod" required  minlength="6" maxlength="11"  placeholder="输入原密码">
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="passwordnew">新密码</label>
+            <input type="password" class="" id="passwordnew" name="passwordnew" minlength="6" maxlength="11"  required placeholder="输入新密码">
+        </div>
+
+        <div class="am-form-group">
+            <label for="passwordconfirm">密码确认</label>
+            <input type="password" class="" id="passwordconfirm" name="passwordconfirm" minlength="6" maxlength="11"  required placeholder="确认新密码">
+        </div>
+
+        <p><button type="submit" class="am-btn am-btn-default">提交</button></p>
+    </fieldset>
+</form>
+
+{/block}

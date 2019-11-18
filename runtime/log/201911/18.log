@@ -1,0 +1,465 @@
+---------------------------------------------------------------
+[ 2019-11-18T00:04:55+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:06:34+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:07:18+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:07:52+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:44+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:49+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:50+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:52+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:54+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:08:59+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:31:33+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:31:53+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000587s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:21+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:22+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:22+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:22+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:23+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:33:23+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:36:26+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:38:48+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:43:38+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:46:42+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:48:38+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:54:33+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:54:34+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:55:36+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:58:24+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:58:25+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:58:25+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2019-11-18T00:58:44+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:00:17+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:00:51+08:00 ] 222.30.254.236 GET 222.30.254.253:62/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:19+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:19+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:28+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:30+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:31+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:32+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:33+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/edit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:39+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/cheakuser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeuserinfo` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `activeuserinfo` WHERE  `schoolnum` = '2016512981'  AND `passwd` = '2016512981' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `activeuserinfo` WHERE  `schoolnum` = '2016512981' LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:40+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:41+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:42+08:00 ] 222.30.254.236 POST 222.30.254.253:62/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:49+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:53+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/edit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:58+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/edit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2019-11-18T01:01:59+08:00 ] 222.30.254.236 GET 222.30.254.253:62/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000282s ]
